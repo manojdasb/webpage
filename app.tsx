@@ -185,6 +185,66 @@ function App() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="md:w-1/2">
+              <img
+                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80"
+                alt="Our team at work"
+                className="rounded-lg shadow-xl"
+              />
+            </div>
+            <div className="md:w-1/2">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">A Decade of Excellence</h2>
+              <p className="text-lg text-gray-600 mb-6">
+                With over 10 years of industry experience, ArtistryPrime has established itself as a leading name in painting and structural work services. Our commitment to excellence and customer satisfaction has earned us a reputation for delivering exceptional results.
+              </p>
+              <div className="grid grid-cols-2 gap-6 mb-8">
+                <div className="text-center p-4 bg-blue-50 rounded-lg">
+                  <h3 className="text-3xl font-bold text-blue-600 mb-2">10+</h3>
+                  <p className="text-gray-600">Years Experience</p>
+                </div>
+                <div className="text-center p-4 bg-blue-50 rounded-lg">
+                  <h3 className="text-3xl font-bold text-blue-600 mb-2">100%</h3>
+                  <p className="text-gray-600">Client Satisfaction</p>
+                </div>
+                <div className="text-center p-4 bg-blue-50 rounded-lg">
+                  <h3 className="text-3xl font-bold text-blue-600 mb-2">500+</h3>
+                  <p className="text-gray-600">Projects Completed</p>
+                </div>
+                <div className="text-center p-4 bg-blue-50 rounded-lg">
+                  <h3 className="text-3xl font-bold text-blue-600 mb-2">50+</h3>
+                  <p className="text-gray-600">Skilled Workers</p>
+                </div>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Why Choose Us?</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-center">
+                    <div className="h-2 w-2 bg-blue-600 rounded-full mr-3"></div>
+                    Highly skilled and experienced workforce
+                  </li>
+                  <li className="flex items-center">
+                    <div className="h-2 w-2 bg-blue-600 rounded-full mr-3"></div>
+                    Premium quality materials and tools
+                  </li>
+                  <li className="flex items-center">
+                    <div className="h-2 w-2 bg-blue-600 rounded-full mr-3"></div>
+                    Timely project completion
+                  </li>
+                  <li className="flex items-center">
+                    <div className="h-2 w-2 bg-blue-600 rounded-full mr-3"></div>
+                    Competitive pricing with no compromise on quality
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -273,5 +333,3 @@ function App() {
 }
 
 export default App;
-
-export default App
